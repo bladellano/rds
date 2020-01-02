@@ -58,9 +58,9 @@
      <div class="custom">
       <i class="fas fa-map-marker-alt"></i>
       <h3>ENDEREÇO</h3>
-      <h4><i class="fas fa-map-marker-alt"></i> Ed. Angelim</h4>
-      <h4><i class="fas fa-map-marker-alt"></i> Fé em Deus</h4>
-      <h4><i class="fas fa-map-marker-alt"></i> Cidade Nova</h4>
+      <h4><i class="fas fa-chevron-right"></i> Ed. Angelim</h4>
+      <h4><i class="fas fa-chevron-right"></i> Fé em Deus</h4>
+      <h4><i class="fas fa-chevron-right"></i> Cidade Nova</h4>
     </div>
   </div>
   <div class="col-md-3">
