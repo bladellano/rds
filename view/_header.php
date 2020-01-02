@@ -149,7 +149,7 @@
     </li>
 
     <li><a href="#unidades">Unidades</a></li>
-    <li><a href="#impressa">Impressa</a></li>
+    <li><a href="#imprensa">Imprensa</a></li>
 
     <!-- <li><a href="proposta-pedagogica">Proposta Pedagógica</a></li> -->
 <!--     <li>
