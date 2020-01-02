@@ -9,8 +9,7 @@
         <i class="fas fa-phone"></i> (91) 9 8208 4651 | Ciclano<br/>
         <i class="fas fa-phone"></i> (91) 9 8176 9979 | <i class="fab fa-whatsapp"></i><br/>
         Horário de Funcionamento: Comercial<br/>
-      Responsável pela empresa: Rosangela Santos e William Borralho</p>
-      <p>
+       <!-- <p> Responsável pela empresa: Rosangela Santos e William Borralho</p> -->
         <!-- <i class="fas fa-envelope"></i> -->
        contato@colegiorosadesaron.com.br</p>
       <!-- <p>Rua Lorem Ipsum is Simply, 488 - Conj. 205 Centro Cívico - Bacurau - MA (41) 0000-0000</p> -->

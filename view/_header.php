@@ -19,8 +19,8 @@
   <link href="assets/css/redes-socials.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="lib/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="lib/slick/slick-theme.css>
+  <link href="lib/slick/slick.css" rel="stylesheet" type="text/css">
+  <link href="lib/slick/slick-theme.scss" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -97,7 +97,10 @@
 <div class="head"> 
   <div class="nav-menu" id="nav">
    <!-- <i class="fab fa-phoenix-framework logo-mobile" style="font-size: 30px; color:#FFF;"></i> -->
-   <div class="logo-mobile"><img src="assets/img/logo_1.svg"></div>
+   <div class="logo-mobile">
+    <!-- <img src="assets/img/logo_1.svg"> -->
+    Colégio Rosa de Saron
+  </div>
    <ul class="nav-links">
 
      <li>

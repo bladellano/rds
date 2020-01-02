@@ -551,6 +551,7 @@ body {
 
     .logo-mobile {
         display: none;
+        color:#FFF;
     } 
     .title{
         padding         : 10px 12px;
