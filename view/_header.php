@@ -19,8 +19,8 @@
   <link href="assets/css/redes-socials.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="lib/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="lib/slick/slick-theme.css>
 
 </head>
 
