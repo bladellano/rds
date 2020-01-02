@@ -15,13 +15,13 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
   <link href="lib/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
   <link href="lib/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
-  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
   <link href="assets/css/redes-socials.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 
   <link href="lib/slick/slick.css" rel="stylesheet" type="text/css">
   <link href="lib/slick/slick-theme.scss" rel="stylesheet" type="text/css">
 
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <style>

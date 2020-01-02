@@ -20,6 +20,35 @@ Desenvolvimento FireFly
     font-family: 'Open Sans', sans-serif;
     box-sizing : border-box;
 }
+/* Personalizando arrows do slick */
+
+.slick-prev:before, .slick-next:before { 
+    font-family: "slick"; 
+    font-size: 40px; 
+    line-height: 1; 
+    color: #FFF; 
+    opacity: 0.75; 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale; 
+}   
+
+.slick-prev:before { content: "‹"; }
+[dir="rtl"] .slick-prev:before { 
+    content: "›"; 
+}
+
+[dir="rtl"] .slick-next { 
+    left: -10px; 
+    top: 70px;
+    right: auto;
+}
+.slick-next:before {
+   content: "›"; 
+}
+[dir="rtl"] .slick-next:before { content: "‹"; }
+
+/* Fim */
+
 .pg-default{
     margin-top: 10px;
 }
@@ -570,19 +599,19 @@ body {
     .wrap-logo .logo img{
       width: 88px;
       display: inline;
-    }
+  }
   .wrap-logo .logo{
       display:inline;
-   }    
+  }    
   .wrap-logo .logo-texto{
      display:inline-block;
      font-style: italic;
      color:var(--cor-color-principal);
      line-height:14px;
-   }
+ }
 
 
-@media screen and (max-width:768px) {
+ @media screen and (max-width:768px) {
     body {
         overflow-x: hidden;
     }
