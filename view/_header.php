@@ -96,9 +96,9 @@
 </div>
 </div>
 
-<div class="rede">  
+<!-- <div class="rede">  
   <div id="whatsapp"><a href="https://api.whatsapp.com/send?phone=5591981769979" target="_blank" class="fab fa-whatsapp"></a></div>
-</div>
+</div> -->
 
 <div class="head"> 
   <div class="nav-menu" id="nav">
