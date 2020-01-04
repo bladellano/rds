@@ -12,15 +12,19 @@
        <!-- <p> Responsável pela empresa: Rosangela Santos e William Borralho</p> -->
         <!-- <i class="fas fa-envelope"></i> -->
        contato@colegiorosadesaron.com.br</p>
-      <!-- <p>Rua Lorem Ipsum is Simply, 488 - Conj. 205 Centro Cívico - Bacurau - MA (41) 0000-0000</p> -->
+      <p>Próx. Ao Shopping, Av. Augusto Montenegro, Km 4 - Parque Verde, Belém - PA, 66635-110</p>
       <!-- <p>Av. Lorem Ipsum is Simply - São Bento - SP (11) 9999-9999</p> -->
-      <a href="" class="icon-socials">
+
+      
+
+      <a href="https://www.facebook.com/colegiorosadesaronpara/" class="icon-socials">
         <i class="fab fa-facebook-f"></i>
       </a>
-      <a href="" class="icon-socials">
+      <a href="https://www.instagram.com/colegiorosasaron/" class="icon-socials">
         <i class="fab fa-instagram"></i>
       </a> 
     </div>
+
     <div class="col-md-3">
       <h3>Notícias</h3>
       <ul>
@@ -31,6 +35,8 @@
 
       </ul>
     </div>
+
+    
     <div class="col-md-3">      
       <h3>Institucional</h3>
       <ul>
@@ -45,7 +51,7 @@
       <div class="col-md-3">  
 
 
-<div class="fb-page" data-href="https://www.facebook.com/colegiorosadesaron/" data-tabs="timeline" data-width="" data-height="400px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/colegiorosadesaron/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/colegiorosadesaron/">Paideia Educacional</a></blockquote></div>
+<div class="fb-page" data-href="https://www.facebook.com/colegiorosadesaronpara/" data-tabs="timeline" data-width="" data-height="400px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/colegiorosadesaronpara/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/colegiorosadesaronpara/">Colégio Rosa de Saron</a></blockquote></div>
 
     
 <!-- 

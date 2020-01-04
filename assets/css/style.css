@@ -3,7 +3,8 @@ Folha de estilo criado  - Template para Instituições Educacionais 
 By Caio Dellano 15/12/2019
 Desenvolvimento FireFly
 */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 /* Definindo cores */
 :root{
   /* Paideia Educacional */
@@ -14,11 +15,63 @@ Desenvolvimento FireFly
   --cor-bg-principal    : #FFFFFF;
 }
 
+/* Customizando o dropdown das unidades */
+.nav-links.customize-address{
+    list-style: none;
+}
+.nav-links.customize-address li .sub-menu ul li a,
+.nav-links.customize-address li .sub-menu ul li i
+{
+    color:#FFF;
+}
+.nav-links.customize-address li .sub-menu ul li a i{
+    font-size: 12px;
+    margin-top: 4px;
+
+}
+.nav-links.customize-address li .sub-menu ul li a hr{
+    border-color:#FFF;
+}
+.nav-links.customize-address li .sub-menu{
+    z-index: 2;
+    background-color: var(--cor-color-principal)!important;
+    width: 400px;
+}
+.nav-links.customize-address li{
+    padding-bottom: 10px;
+    margin-top: -2px;
+}
+.nav-links.customize-address li a{
+    color:#777;
+}
+/* Fim */
+#owl-demo .item img{
+    display: block;
+    width  : 100%;
+    height : auto;
+}
+
 * {
     padding: 0px;
     margin: 0px;
-    font-family: 'Open Sans', sans-serif;
-    box-sizing: border-;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.my-3.p-3.bg-white.rounded.shadow-sm p{
+    text-align: justify;
+    color:#606060;
+    font-size: 16px;
+    margin-bottom: 10px;     
+}
+.my-3.p-3.bg-white.rounded.shadow-sm h3{
+    margin: 20px 0px 20px 0px;
+    background-color: #EDF0F4;
+    font-size: 26px;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 4px;
+
 }
 /* Personalizando arrows do slick */
 
@@ -28,8 +81,7 @@ Desenvolvimento FireFly
     line-height: 1; 
     color: #FFF; 
     opacity: 0.75; 
-    -webkit-font-smoothing: antialiased; 
-    -moz-osx-font-smoothing: grayscale; 
+
 }   
 
 .slick-prev:before { content: "‹"; }
@@ -43,7 +95,7 @@ Desenvolvimento FireFly
     right: auto;
 }
 .slick-next:before {
-   content: "›"; 
+ content: "›"; 
 }
 [dir="rtl"] .slick-next:before { content: "‹"; }
 
@@ -208,15 +260,15 @@ body {
 #links-services .container .row .col-lg-2:nth-child(6) a{background-color: #D63135;} */
 
 #links-services .container .row:only-child a{
-    width           : 170px;
-    height          : 180px; 
-    display         : block;
+    width: 170px;
+    height: 180px; 
+    display: block;
     background-color: #FFF;
-    border-radius   : 6px;
-    text-decoration : none;
-    margin-top      : 12px;
-    box-shadow      : 2px 2px 8px rgba(0,0,0,0.1); 
-    padding         : 6px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 12px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1); 
+    padding: 6px;
 }
 #links-services .container .row:only-child a:hover{
     /*opacity: 1*/
@@ -245,9 +297,9 @@ body {
     padding-bottom: 20px;
 }
 #footer .container-fluid .row .col-md-3{
-   padding-left :4% ;
-   padding-right:4% ;
-   border-left  :1px dotted #666;
+ padding-left :4% ;
+ padding-right:4% ;
+ border-left  :1px dotted #666;
 }
 #footer .container-fluid .row:only-child h3{
     margin-bottom: 35px;
@@ -281,15 +333,15 @@ body {
 
 /*----------------------*/
 #assign {
- background: linear-gradient(45deg, #222, #333); 
+   background: linear-gradient(45deg, #222, #333); 
 }
 #assign .container{
- text-align    : center; 
- color         : #FFF;
- padding-top   : 8px;
- padding-bottom: 8px;
- font-size     : 12px;
- color         : #777;
+   text-align: center; 
+   color: #FFF;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   font-size: 12px;
+   color: #777;
 }
 #assign .container img{
     max-height: 33px;
@@ -302,12 +354,12 @@ body {
 /*----------------------*/
 #depoimentos{
   background-color: var(--cor-color-principal);
-  width           : 100%;
-  height          : 100%;
-  color           : #FFF;
-  padding-top     : 20px;
-  padding-bottom  : 20px;
-  line-height     : 35px;
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 35px;
 
 }
 #depoimentos .slick-depoimentos img{
@@ -380,15 +432,15 @@ body {
 }
 /*----------------------*/
 .bg-paralax-pg-default{
- background-image: url(../../assets/img/bg-paralax-instituicao.jpg);
- background-position: center top;
- background-repeat: no-repeat;
- background-size: cover;
- background-attachment: fixed;
- color: #FFF;
- padding-top: 90px;
- padding-bottom: 90px;
- position: relative;
+   /* background-image: url(../../assets/img/bg-paralax-instituicao.jpg); */
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   color: #FFF;
+   padding-top: 190px;
+   padding-bottom: 90px;
+   position: relative;
 }
 .bg-paralax-pg-default h6{
     /* background-color: #000; */
@@ -454,12 +506,12 @@ body {
 .head .nav-menu {
     z-index        : 1;
     /* background     : var(--cor-color-principal); */
-    background     : #FFF;
-    padding        : 10px 0px;
-    text-align     : center;
-    position       : absolute;
-    display        : flex;
-    width          : 100%;
+    background: #FFF;
+    padding: 0px 0px;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    width: 100%;
     justify-content: space-around;
     box-shadow: 1px 1px 3px #eee;
 
@@ -504,7 +556,7 @@ body {
     color: var(--cor-color-secundaria);
 }
 .active-menu, .nav-links li:hover {
-    background: rgba(0,0,0,0.1);
+    /* background: rgba(0,0,0,0.1); */
     border-radius: 3px;
 }
 .sub-menu {
@@ -574,29 +626,26 @@ body {
 
 /*----------------------*/
 .wrap-logo{
-    width:70%;
+  width:88%;
 }
 .wrap-logo .logo img{
   width: 88px;
-  display: inline;
+  float: left;
 }
-.wrap-logo .logo{
-  display:inline;
-}    
-.wrap-logo .logo-texto{
- display:inline-block;
- font-style: italic;
- color:var(--cor-color-principal);
- line-height:14px;
+
+.wrap-logo .texto{
+  float: right;
+  font-style: italic;
+  color:var(--cor-color-principal);
+  font-size: 26px;
+  line-height: 30px;
+  margin-top: 12px;
 }
 
 
 @media screen and (max-width:768px) {
     body {
         overflow-x: hidden;
-    }
-    .head .nav-menu{
-        background-color: var(--cor-color-principal);
     }
     #links-services .container .row:only-child a{
         width : 198px;
@@ -650,6 +699,9 @@ body {
         justify-content: space-between;
         padding: 10px 20px;
     }
+    .head .nav-menu{
+        background-color: var(--cor-color-principal);
+    }
     .nav-menu li {
         border-left  : 0px;
         /*border-bottom: 1px solid rgba(0,0,0,0.2);*/
@@ -663,7 +715,7 @@ body {
         top: 100%;
         background-color: var(--cor-color-principal);
         display: flex;
-        flex-direction column;
+        flex-direction :column;
         align-items: center;
         width: 50%;
         line-height: 300%;

@@ -24,14 +24,6 @@
   <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 </head>
 
-<style>
-  #owl-demo .item img{
-    display: block;
-    width  : 100%;
-    height : auto;
-  }
-</style>
-
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v5.0"></script>
 
@@ -41,26 +33,40 @@
     <div class="row title">
       <div class="col-md-3 text-left">
 
-      <div class="wrap-logo">
-        <div class="logo">
-          <a href="./"><img src="assets/img/logo-rds.png" alt="Logo Instituição"></a>
-        </div>
-        <div class="logo-texto">
-          <strong>Colégio</strong><br/>
-          Rosa de Saron
-        </div>
-      </div> 
+        <div class="wrap-logo">
+          <div class="logo">
+            <a href="./"><img src="assets/img/logo-rds.png" alt="Logo Instituição"></a>
+          </div>
+          <div class="texto">
+            <strong>Colégio</strong><br/>
+            Rosa de Saron
+          </div>
+        </div> 
    <!--     <a href="./">
         <img src="assets/img/logo-rds.png" alt="Logo Instituição">
       </a> -->
-     </div>  
-     <div class="col-md-2">
+    </div>  
+    <div class="col-md-2">
      <div class="custom">
       <i class="fas fa-map-marker-alt"></i>
       <h3>ENDEREÇO</h3>
-      <h4><i class="fas fa-chevron-right"></i> Ed. Angelim</h4>
-      <h4><i class="fas fa-chevron-right"></i> Fé em Deus</h4>
-      <h4><i class="fas fa-chevron-right"></i> Cidade Nova</h4>
+
+      <ul class="nav-links customize-address">
+        <li><a href="" >Unidades<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+         <div class="sub-menu">
+          <ul>
+            <li><a href="">&bull; Augusto Montenegro, Km 4 - (91) 98842-5346/2121-4515<hr></a></li>
+            <li><a href="">&bull; Cidade Nova 8 We-39 - (91) 98282-0145<hr></a></li>
+            <li><a href="">&bull; Cj. Eduardo Angelim - Icoaraci - (91) 98885-7462<hr></a></li>
+            <li><a href="">&bull; Tv. Fé em Deus - Tenoné - (91) 98330-7462<hr></a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+
+      <!-- <h4>Unidades</h4> -->
+<!--       <h4><i class="fas fa-chevron-right"></i> Fé em Deus</h4>
+      <h4><i class="fas fa-chevron-right"></i> Cidade Nova</h4> -->
     </div>
   </div>
   <div class="col-md-3">
@@ -79,10 +85,10 @@
 </div>
 
 <div class="col-md-1">
-  <a href="https://www.facebook.com/colegiorosadesaron/" target="_blank" class="icon-socials">
+  <a href="https://www.facebook.com/colegiorosadesaronpara/" target="_blank" class="icon-socials">
     <i class="fab fa-facebook-f"></i>
   </a>
-  <a href="https://www.instagram.com/colegiorosadesaron/" target="_blank" class="icon-socials">
+  <a href="https://www.instagram.com/colegiorosasaron/" target="_blank" class="icon-socials">
     <i class="fab fa-instagram"></i>
   </a> 
 
@@ -101,78 +107,54 @@
     <!-- <img src="assets/img/logo_1.svg"> -->
     Colégio Rosa de Saron
   </div>
-   <ul class="nav-links">
 
-     <li>
-      <a href="instituicao">Instituição</a>
-     
-    </li>
 
-    <li>
-      <i class="fa fa-chevron-left" aria-hidden="true"></i>
-      <a href="#educacional">Educacional</a>
-      <i class="fa fa-chevron-down" aria-hidden="true"></i>
-      <div class="sub-menu">
-        <ul>
-          <li><a href="cursos">Cursos<hr></a></li>
-          <li><a href="metodos-avaliativos">Métodos avaliativos<hr></a></li>
-          <li><a href="matriz-curricular">Matriz Curricular<hr></a></li>
-        </ul>
-      </div>
-    </li>
+  <ul class="nav-links">
 
-    <li>
-      <i class="fa fa-chevron-left" aria-hidden="true"></i>
-      <a href="#social">Social</a>
-      <i class="fa fa-chevron-down" aria-hidden="true"></i>
-      <div class="sub-menu">
+   <li>
+    <a href="instituicao">Instituição</a>
+
+  </li>
+
+  <li><a href="educacional">Educacional</a></li>
+
+  <li>
+    <!-- <i class="fa fa-chevron-left" aria-hidden="true"></i> -->
+    <a href="eventos">Social</a>
+    <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
+<!--       <div class="sub-menu">
         <ul>
           <li><a href="acoes-sociais-externas">Ações Sociais externas<hr></a></li>
           <li><a href="direitos-deveres-seus-alunos-professores">Direitos e deveres de seus alunos e professores <hr></a></li>
-          <li><a href="eventos-sociais-promovidos-pelo-colegio">Eventos sociais promovidos pelo colégio.<hr></a></li>
+          <li><a href="eventos-sociais-promovidos-pelo-colegio">Eventos sociais promovidos pelo colégio<hr></a></li>
         </ul>
-      </div>
+      </div> -->
     </li>
 
     <li>
       <i class="fa fa-chevron-left" aria-hidden="true"></i>
-      <a href="#vida-rosa-de-saron">Vida Rosa de Saron</a>
+      <a href="vida-rosa-de-saron">Vida Rosa de Saron</a>
       <i class="fa fa-chevron-down" aria-hidden="true"></i>
       <div class="sub-menu">
         <ul>
-          <li><a href="">Ambiente escolar<hr></a></li>
-          <li><a href="">Professores<hr></a></li>
-          <li><a href="">Horário de aula<hr></a></li>
-          <li><a href="">Material usado<hr></a></li>
+          <li><a href="vida-rosa-de-saron">Ambiente escolar<hr></a></li>
+          <li><a href="vida-rosa-de-saron#professores">Professores<hr></a></li>
+          <li><a href="vida-rosa-de-saron#horario-de-aula">Horário de aula<hr></a></li>
+          <li><a href="vida-rosa-de-saron#material-usado">Material usado<hr></a></li>
         </ul>
       </div>
     </li>
 
-    <li><a href="#unidades">Unidades</a></li>
-    <li><a href="#imprensa">Imprensa</a></li>
+    <li><a href="unidades">Unidades</a></li>
+    <li><a href="imprensa">Imprensa</a></li>
+    <li><a href="#paralax">Fale Conosco</a></li>
+    <li><a class="btn btn-success" href="#">PRÉ-MATRÍCULA</a></li>
+  </ul>
 
-    <!-- <li><a href="proposta-pedagogica">Proposta Pedagógica</a></li> -->
-<!--     <li>
-     <i class="fa fa-chevron-left" aria-hidden="true"></i>
-     <a href="#">Unidades</a>
-     <i class="fa fa-chevron-down" aria-hidden="true"></i>
-     <div class="sub-menu">
-      <ul>
-        <li><a href="">Belém<hr></a></li>
-        <li><a href="">Ananindeua<hr></a></li>
-        <li><a href="">Castanhal<hr></a></li>
-      </ul>
-    </div>
-  </li> -->
-
-  <li><a href="#footer">Contato</a></li>
-  <li><a class="btn btn-success" href="#">PRÉ-MATRÍCULA</a></li>
-</ul>
-
-<div class="burger">
-  <div class="line1"></div>
-  <div class="line2"></div>
-  <div class="line3"></div>
-</div>
+  <div class="burger">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+  </div>
 </div><!--nav-->
 </div>

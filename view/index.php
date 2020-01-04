@@ -40,7 +40,9 @@
     <div class="col-md-6">
       <p class="small">O que fazemos?</p>
       <h3>Produzimos ensino com qualidade</h3>    
-      <p>Em algumas agências no 90 circulou um texto chamado "bonde amarelo" ou "metrô amarelo" sensata substituir Lorem Ipsum para dar um visual mais moderno para o conteúdo. Mas muitas pessoas estavam olhando para ler o texto quando ele estava em Francês ou Inglês, o efeito desejado não foi alcançado. Trabalhar com texto legível, contendo instruções pode causar distrações e isso pode ajudar a focar o layout.
+      <p>Além de oferecer um rico conhecimento aos nossos alunos através das atividades em classe, o Colégio Rosa de Saron fornece atividades extraclasses, que são importantes pois motiva e promove o interesse do aluno para os conteúdos estudados.</p>
+      <p>Acreditamos e investimos sempre no decorrer do ano letivo em ações para instigar o conhecimento dos nossos pequenos. Fazendo com que o nosso aluno desbrave o universo ao seu redor.</p>
+      <p>Empatia, ética e bons princípios são incentivados em nossos alunos desde o início.  O colégio Rosa de Saron há mais de 25 anos contribui para educação de jovens e crianças em Icoaraci e Cidade Nova. hoje com a 4 unidade na Augusto Montenegro oferecemos o melhor ensino com menor custo.
       </p>
     </div>  
     <div class="col-md-6">
@@ -215,19 +217,19 @@
     <hr>
     <div class="slick-depoimentos">
       <div>
-        <img src="assets/img/face.jpg" alt="">
-        <p>Rodrigo Branas</p>
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, velit! Quo fugiat ipsam asperiores nam voluptatem beatae perspiciatis optio laudantium nobis, illo placeat. Similique accusantium minus, nesciunt minima, ut dolorum"
+        <img src="assets/img/ericha-knight.jpg" alt="">
+        <p>Ericha Knight</p>
+        "Sempre quis para o meu filho um Colégio próximo a minha casa, de qualidade e preço acessível 😄 e em especial as professoras dedicadas,atenciosas e competentes que são."
       </div>
       <div>      
-        <img src="assets/img/face-2.jpg" alt="">
-        <p>Renata Pinheiro</p>
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet suscipit odit accusamus fugiat tempora doloremque perferendis"
+        <img src="assets/img/hudson-vieira.jpg" alt="">
+        <p>Hudson Vieira</p>
+        "Melhor escola! Meus filhos adoram estudar aqui!"
       </div>
       <div>      
-        <img src="assets/img/face-3.jpg" alt="">
-        <p>Camila Santos</p>
-        "Expedita cumque itaque aperiam possimus temporibus repudiandae molestiae natus voluptate culpa repellendus nulla optio perspiciatis pariatur veritatis sunt soluta, dolor autem ex"
+        <img src="assets/img/francilene-gomes.jpg" alt="">
+        <p>Francilene Gomes </p>
+        "Meu filho e Autista e é muito bem cuidado,muito a agradecer ao colégio Rosa de Saran pelo carinho q tem pelo meu filho.😍😘"
       </div>
     </div>   
   </div>

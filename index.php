@@ -17,20 +17,39 @@ $app->get('/instituicao', function (){
     }
 );
 
-$app->get('/cursos',function (){
-        require_once("view/cursos.php");   
+$app->get('/educacional',function (){
+        require_once("view/educacional.php");   
     }
 );
 
-$app->get('/metodos-avaliativos',function (){
-        require_once("view/metodos-avaliativos.php");   
+$app->get('/eventos',function (){
+        require_once("view/eventos.php");   
     }
 );
 
-$app->get('/matriz-curricular',function (){
-        require_once("view/matriz-curricular.php");   
+$app->get('/vida-rosa-de-saron',function (){
+        require_once("view/vida-rosa-de-saron.php");   
     }
 );
+$app->get('/unidades',function (){
+        require_once("view/unidades.php");   
+    }
+);
+
+$app->get('/imprensa',function (){
+        require_once("view/imprensa.php");   
+    }
+);
+
+// $app->get('/metodos-avaliativos',function (){
+//         require_once("view/metodos-avaliativos.php");   
+//     }
+// );
+
+// $app->get('/matriz-curricular',function (){
+//         require_once("view/matriz-curricular.php");   
+//     }
+// );
 
 $app->get('/acoes-sociais-externas',function (){
         require_once("view/acoes-sociais-externas.php");   
