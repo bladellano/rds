@@ -16,7 +16,8 @@
 
     const navSlide = () => {
         const burger = doc.querySelector('.burger');
-        const nav = doc.querySelector('.nav-links');
+        const nav = doc.querySelector('.nav-links:nth-child(2)');
+        console.log(nav);''
         const navLinks = doc.querySelectorAll('.nav-links li');
 
         burger.addEventListener('click', () => {
