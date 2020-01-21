@@ -42,9 +42,6 @@
             Rosa de Saron
           </div>
         </div> 
-   <!--     <a href="./">
-        <img src="assets/img/logo-rds.png" alt="Logo Instituição">
-      </a> -->
     </div>  
     <div class="col-md-2">
      <div class="custom">
@@ -64,24 +61,25 @@
       </li>
     </ul>
 
-      <!-- <h4>Unidades</h4> -->
-<!--       <h4><i class="fas fa-chevron-right"></i> Fé em Deus</h4>
-      <h4><i class="fas fa-chevron-right"></i> Cidade Nova</h4> -->
-    </div>
-  </div>
-  <div class="col-md-3">
-   <div class="custom">
-    <i class="fas fa-phone"></i>
-    <h3>TELEFONES DE CONTATO</h3>
-    <h4>91 98360-4463 / 91 98208-4651</h4>
-  </div>
+</div>
 </div>
 <div class="col-md-3">
+ <div class="custom">
+  <i class="fas fa-phone"></i>
+  <h3>TELEFONES DE CONTATO</h3>
+  <h4>91 98360-4463 / 91 98208-4651</h4>
+</div>
+</div>
+<div class="col-md-2">
  <div class="custom">
    <i class="fas fa-envelope"></i>
    <h3>E-MAIL PARA CONTATO</h3>
    <h4>contato@colegiorosadesaron.com.br</h4>
  </div>
+</div>
+
+<div class="col-md-1">
+  <a href="" class="btn btn-success btn-sm"><i class="fas fa-user-graduate"></i> ALUNO ON-LINE</a>
 </div>
 
 <div class="col-md-1">
@@ -93,44 +91,22 @@
   </a> 
 
 </div>
-</div>
-</div>
+</div><!--row-->
 
-<!-- <div class="rede">  
-  <div id="whatsapp"><a href="https://api.whatsapp.com/send?phone=5591981769979" target="_blank" class="fab fa-whatsapp"></a></div>
-</div> -->
-
+</div>
 <div class="head"> 
   <div class="nav-menu" id="nav">
-   <!-- <i class="fab fa-phoenix-framework logo-mobile" style="font-size: 30px; color:#FFF;"></i> -->
-   <div class="logo-mobile">
-    <!-- <img src="assets/img/logo_1.svg"> -->
-    Colégio Rosa de Saron
-  </div>
+   <div class="logo-mobile">Colégio Rosa de Saron</div>
 
-
-  <ul class="nav-links">
-
-   <li>
-    <a href="instituicao">Instituição</a>
-
-  </li>
-
-  <li><a href="educacional">Educacional</a></li>
-
-  <li>
-    <!-- <i class="fa fa-chevron-left" aria-hidden="true"></i> -->
-    <a href="eventos">Social</a>
-    <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
-<!--       <div class="sub-menu">
-        <ul>
-          <li><a href="acoes-sociais-externas">Ações Sociais externas<hr></a></li>
-          <li><a href="direitos-deveres-seus-alunos-professores">Direitos e deveres de seus alunos e professores <hr></a></li>
-          <li><a href="eventos-sociais-promovidos-pelo-colegio">Eventos sociais promovidos pelo colégio<hr></a></li>
-        </ul>
-      </div> -->
+   <ul class="nav-links">
+     <li>
+      <a href="instituicao">Instituição<hr></a>
     </li>
-
+    <li><a href="educacional">Educacional<hr></a>
+    </li>
+    <li>
+      <a href="eventos">Social<hr></a>
+    </li>
     <li>
       <i class="fa fa-chevron-left" aria-hidden="true"></i>
       <a href="vida-rosa-de-saron">Vida Rosa de Saron</a>
@@ -145,9 +121,9 @@
       </div>
     </li>
 
-    <li><a href="unidades">Unidades</a></li>
-    <li><a href="imprensa">Imprensa</a></li>
-    <li><a href="#paralax">Fale Conosco</a></li>
+    <li><a href="unidades">Unidades<hr></a></li>
+    <li><a href="imprensa">Imprensa<hr></a></li>
+    <li><a href="#paralax">Fale Conosco<hr></a></li>
     <li><a class="btn btn-success" href="#">PRÉ-MATRÍCULA</a></li>
   </ul>
 
