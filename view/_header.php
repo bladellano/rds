@@ -128,7 +128,7 @@
     </li>
 
     <li><a href="unidades">Unidades<hr></a></li>
-    <li><a href="imprensa">Imprensa<hr></a></li>
+    <li><a href="imprensa">Informativo<hr></a></li>
     <li><a href="#paralax">Fale Conosco<hr></a></li>
     <li><a class="btn btn-success" href="#">PRÉ-MATRÍCULA</a></li>
   </ul>
