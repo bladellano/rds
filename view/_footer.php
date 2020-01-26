@@ -6,7 +6,7 @@
        <h3>Unidades</h3>
 
         <b>Augusto Montenegro, Km 4</b><br/>
-        <i class="fas fa-phone"></i> (91) (91) 98842-5346/2121-4515<br/>
+        <i class="fas fa-phone"></i> (91) 98842-5346/2121-4515<br/>
 
         <b>Cidade Nova 8 We-39</b><br/>
         <i class="fas fa-phone"></i> (91) 98282-0145<br/>
@@ -17,7 +17,7 @@
         <b>Tv. Fé em Deus - Tenoné</b><br/>
         <i class="fas fa-phone"></i> (91) 98330-7462<br/>
 
-       <i class="fas fa-envelope"></i> contato@colegiorosadesaron.com.br</p>      
+       <i class="fas fa-envelope"></i> contato@rosadesaroncolegio.com.br</p>      
 
       <a href="https://www.facebook.com/colegiorosadesaronpara/" class="icon-socials">
         <i class="fab fa-facebook-f"></i>
@@ -54,18 +54,6 @@
 
 
 <div class="fb-page" data-href="https://www.facebook.com/colegiorosadesaronpara/" data-tabs="timeline" data-width="" data-height="400px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/colegiorosadesaronpara/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/colegiorosadesaronpara/">Colégio Rosa de Saron</a></blockquote></div>
-
-    
-<!-- 
-        <h3>Ligamos para você</h3>
-        <p>Deixe seu nome e número de telefone que ligamos para você.</p>
-        <form action="">           
-          <input type="text" class="form-control form-control-sm" placeholder="Nome:">
-          <input type="email" class="form-control form-control-sm" placeholder="E-mail:">
-          <input type="text" class="form-control form-control-sm" placeholder="Telefone:"> 
-          <button class="btn btn-outline-primary btn-block btn-sm">Enviar</button> 
-        </form> -->
-
 
       </div>
     </div>   
