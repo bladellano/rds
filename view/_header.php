@@ -7,9 +7,9 @@
   <title>.: Colégio Rosa de Saron :.</title>
 
   <meta name="author" content="FireFly Desenvolvimento">
-  <meta name="description" content="Acessória e Consultoria em Projetos Educacionais e Empresariais, Promoções de eventos educacionais e Assessoramento e Acompanhamento de estudos em aulas Particulares.">
-  <meta name="keywords" content="belém, pará, cursos, eventos, consultoria, assessoria, empresa, aulas particulares, negócio, escolas, educação básica, educação infantil, ensino fundamental, escolas profissionalizante, escolas técnicas, acadêmicos, mercado.">
-  <meta name="copyright" content="© 2019 Paideia Educacional" />
+  <meta name="description" content="Educação Escolar, Ensino Fundamental, Ensino Médio, etc">
+  <meta name="keywords" content="Belém, Pará, Educação, Ensino de Qualidade, etc">
+  <meta name="copyright" content="© 2020 Colégio Rosa de Saron" />
 
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
@@ -29,57 +29,60 @@
 
 <body>
 
-  <div class="container-fluid">
-    <div class="row title">
-      <div class="col-md-3 text-left">
+  <!-- <div class="container-fluid"> -->
+    <div class="title">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-left">
 
-        <div class="wrap-logo">
-          <div class="logo">
-            <a href="./"><img src="assets/img/logo-rds.png" alt="Logo Instituição"></a>
-          </div>
-          <div class="texto">
-            <strong>Colégio</strong><br/>
-            Rosa de Saron
-          </div>
-        </div> 
-    </div>  
-    <div class="col-md-2">
-     <div class="custom">
-      <i class="fas fa-map-marker-alt"></i>
-      <h3>ENDEREÇO</h3>
+            <div class="wrap-logo">
+              <div class="logo">
+                <a href="./"><img src="assets/img/logo-rds.png" alt="Logo Instituição"></a>
+              </div>
+              <div class="texto">
+                Colégio<br/>Rosa de Saron
+              </div>
+            </div> 
 
-      <ul class="nav-links customize-address">
-        <li><a href="" >Unidades<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-         <div class="sub-menu">
-          <ul>
-            <li><a href="">&bull; Augusto Montenegro, Km 4 - (91) 98842-5346/2121-4515<hr></a></li>
-            <li><a href="">&bull; Cidade Nova 8 We-39 - (91) 98282-0145<hr></a></li>
-            <li><a href="">&bull; Cj. Eduardo Angelim - Icoaraci - (91) 98885-7462<hr></a></li>
-            <li><a href="">&bull; Tv. Fé em Deus - Tenoné - (91) 98330-7462<hr></a></li>
+          </div>  
+          <div class="col-md-2">
+           <div class="custom">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>ENDEREÇO</h3>
+
+            <ul class="nav-links customize-address">
+              <li><a href="" >Unidades<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+               <div class="sub-menu">
+                <ul>
+                  <li><a href="">&bull; Augusto Montenegro, Km 4 - (91) 98842-5346/2121-4515<hr></a></li>
+                  <li><a href="">&bull; Cidade Nova 8 We-39 - (91) 98282-0145<hr></a></li>
+                  <li><a href="">&bull; Cj. Eduardo Angelim - Icoaraci - (91) 98885-7462<hr></a></li>
+                  <li><a href="">&bull; Tv. Fé em Deus - Tenoné - (91) 98330-7462<hr></a></li>
+                </ul>
+              </div>
+            </li>
           </ul>
-        </div>
-      </li>
-    </ul>
 
-</div>
-</div>
-<div class="col-md-3">
- <div class="custom">
+        </div>
+      </div>
+      <div class="col-md-1">
+<!--  <div class="custom">
   <i class="fas fa-phone"></i>
   <h3>TELEFONES DE CONTATO</h3>
   <h4>91 98360-4463 / 91 98208-4651</h4>
+</div> -->
 </div>
-</div>
-<div class="col-md-2">
- <div class="custom">
+<div class="col-md-1">
+<!--  <div class="custom">
    <i class="fas fa-envelope"></i>
    <h3>E-MAIL PARA CONTATO</h3>
    <h4>contato@colegiorosadesaron.com.br</h4>
- </div>
+ </div> -->
 </div>
 
-<div class="col-md-1">
-  <a href="" class="btn btn-success btn-sm"><i class="fas fa-user-graduate"></i> ALUNO ON-LINE</a>
+<div class="col-md-3">
+  <a href="#" class="btn-professor"><i class="fas fa-chalkboard-teacher"></i> PROFESSOR ON-LINE</a>
+  <!-- <a href="" class="btn btn-success btn-sm"><i class="fas fa-user-graduate"></i> PROFESSOR ON-LINE</a> -->
 </div>
 
 <div class="col-md-1">
@@ -94,9 +97,11 @@
 </div><!--row-->
 
 </div>
+</div> <!-- title -->
+
 <div class="head"> 
   <div class="nav-menu" id="nav">
-   <div class="logo-mobile">Colégio Rosa de Saron</div>
+   <div class="logo-mobile"><img src="assets/img/logo-rds-branca.png" alt=""> Colégio Rosa de Saron</div>
 
    <ul class="nav-links">
      <li>
@@ -105,7 +110,7 @@
     <li><a href="educacional">Educacional<hr></a>
     </li>
     <li>
-      <a href="eventos">Social<hr></a>
+      <a href="social">Social<hr></a>
     </li>
     <li>
       <i class="fa fa-chevron-left" aria-hidden="true"></i>
@@ -113,10 +118,11 @@
       <i class="fa fa-chevron-down" aria-hidden="true"></i>
       <div class="sub-menu">
         <ul>
-          <li><a href="vida-rosa-de-saron">Ambiente escolar<hr></a></li>
-          <li><a href="vida-rosa-de-saron#professores">Professores<hr></a></li>
-          <li><a href="vida-rosa-de-saron#horario-de-aula">Horário de aula<hr></a></li>
-          <li><a href="vida-rosa-de-saron#material-usado">Material usado<hr></a></li>
+          <!-- <li><a href="vida-rosa-de-saron">Ambiente escolar<hr></a></li> -->
+          <li><a href="vida-rosa-de-saron#tecnologias-educacionais">Tecnologias Educacionais<hr></a></li>
+          <li><a href="vida-rosa-de-saron#ambientes-de-aprendizagem">Ambientes de aprendizagem<hr></a></li>
+          <!-- <li><a href="vida-rosa-de-saron#horario-de-aula">Horário de aula<hr></a></li> -->
+          <!-- <li><a href="vida-rosa-de-saron#material-usado">Material usado<hr></a></li> -->
         </ul>
       </div>
     </li>

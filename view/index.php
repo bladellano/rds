@@ -14,24 +14,7 @@
 <!-- End carousel -->
 
 <section>
-
-  <!-- section-1 -->
-<!--     <div id="information">
-    <div class="container">        
-     <div class="row">
-       <div class="col-md-4">
-         <p>61348 <small>Stadium Capacity</small></p>
-       </div> 
-       <div class="col-md-4">
-         <p>2010 <small>Founded</small></p>
-       </div>
-       <div class="col-md-4">
-         <p>7th <small>Eastern Conference</small></p>
-       </div>           
-     </div>
-   </div>
- </div> -->
-
+  
  <div id="sobre-nos">
   <div class="container">
    <h2>Sobre nós</h2>
@@ -172,7 +155,7 @@
       <h2>Criação de Sites Responsivos e Mobiles</h2>
       <p>Criação de sites mobiles e responsivos. Sites que se adaptam a qualquer resolução de tela, sem criar barra de rolagem.</p>
       <p>Em 2016, o acesso à internet via dispositivos móvel (ou mobile) ultrapassou os acessos via desktop.</p>
-      <button class="btn btn-outline-primary">SOLICITAR ORÇAMENTO</button>
+      <!-- <button class="btn btn-outline-primary">SOLICITAR ORÇAMENTO</button> -->
       <br/><br/>
     </div>
     <div class="col-md-6">
@@ -193,20 +176,48 @@
         <div class="row">
           <div class="col-md-12">
             <div class="wrap-form text-right">
+
               <form action="" class="form-contato">
-                <input type="text" name="nome" placeholder="NOME">
-                <input type="email" name="email" placeholder="E-MAIL">
-                <input type="text" name="telefone" placeholder="TELEFONE">
-                <textarea name="mensagem" id="mensagem" cols="30" rows="4" placeholder="MENSAGEM"></textarea>
-                <button class="btn btn-success ">ENVIAR</button>
+                <div class="col-auto">
+                  <!-- NOME -->
+                  <label class="sr-only" for="inlineFormInputGroup">NOME</label>
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text"><i class="fas fa-user"></i></div>
+                    </div>
+                    <input type="text" class="form-control" id="nome" placeholder="NOME">
+                  </div>
+                </div>
+                <!-- E-MAIL -->
+                <div class="col-auto">
+                  <label class="sr-only" for="inlineFormInputGroup">E-MAIL</label>
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text"><i class="fas fa-envelope"></i></div>
+                    </div>
+                    <input type="text" class="form-control" id="email" placeholder="E-MAIL">
+                  </div>
+                </div>
+                <!-- TELEFONE -->
+                <div class="col-auto">
+                  <label class="sr-only" for="inlineFormInputGroup">E-MAIL</label>
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text"><i class="fas fa-phone"></i></div>
+                    </div>
+                    <input type="text" class="form-control" id="telefone" placeholder="TELEFONE">
+                  </div>
+                </div>
+                <!-- MENSAGEM -->
+                <div class="form-group">
+                  <textarea class="form-control" name="mensagem" id="mensagem" rows="3"></textarea>
+                </div>
+                <button class="btn btn-success ">ENVIAR <i class="fas fa-paper-plane"></i></button>
               </form>
+
             </div>
           </div>
         </div>
-    <!--     <p class="lead text-center">Lorem ipsum is dolor sit nmet, consectetur adipiscing elit</p>
-        <p class="text-center">
-          <a href="#" class="btn btn-outline-success">Matricule-se</a>          
-        </p> -->
       </div>
     </div>
   </div>

@@ -2,20 +2,22 @@
   <div class="container-fluid"> 
     <div class="row">      
      <div class="col-md-3">      
-      <!-- <h3><img src="assets/img/logo_1.svg" alt=""></h3> -->
 
-      <p>Contato:<br/>
-        <i class="fas fa-phone"></i> (91) 9 8360 4463 | Fulano<br/>
-        <i class="fas fa-phone"></i> (91) 9 8208 4651 | Ciclano<br/>
-        <i class="fas fa-phone"></i> (91) 9 8176 9979 | <i class="fab fa-whatsapp"></i><br/>
-        Horário de Funcionamento: Comercial<br/>
-       <!-- <p> Responsável pela empresa: Rosangela Santos e William Borralho</p> -->
-        <!-- <i class="fas fa-envelope"></i> -->
-       contato@colegiorosadesaron.com.br</p>
-      <p>Próx. Ao Shopping, Av. Augusto Montenegro, Km 4 - Parque Verde, Belém - PA, 66635-110</p>
-      <!-- <p>Av. Lorem Ipsum is Simply - São Bento - SP (11) 9999-9999</p> -->
+       <h3>Unidades</h3>
 
-      
+        <b>Augusto Montenegro, Km 4</b><br/>
+        <i class="fas fa-phone"></i> (91) (91) 98842-5346/2121-4515<br/>
+
+        <b>Cidade Nova 8 We-39</b><br/>
+        <i class="fas fa-phone"></i> (91) 98282-0145<br/>
+
+        <b>Cj. Eduardo Angelim - Icoaraci</b><br/>
+        <i class="fas fa-phone"></i> (91) 98885-7462<br/>
+
+        <b>Tv. Fé em Deus - Tenoné</b><br/>
+        <i class="fas fa-phone"></i> (91) 98330-7462<br/>
+
+       <i class="fas fa-envelope"></i> contato@colegiorosadesaron.com.br</p>      
 
       <a href="https://www.facebook.com/colegiorosadesaronpara/" class="icon-socials">
         <i class="fab fa-facebook-f"></i>

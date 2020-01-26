@@ -22,8 +22,8 @@ $app->get('/educacional',function (){
     }
 );
 
-$app->get('/eventos',function (){
-        require_once("view/eventos.php");   
+$app->get('/social',function (){
+        require_once("view/social.php");   
     }
 );
 
@@ -38,31 +38,6 @@ $app->get('/unidades',function (){
 
 $app->get('/imprensa',function (){
         require_once("view/imprensa.php");   
-    }
-);
-
-// $app->get('/metodos-avaliativos',function (){
-//         require_once("view/metodos-avaliativos.php");   
-//     }
-// );
-
-// $app->get('/matriz-curricular',function (){
-//         require_once("view/matriz-curricular.php");   
-//     }
-// );
-
-$app->get('/acoes-sociais-externas',function (){
-        require_once("view/acoes-sociais-externas.php");   
-    }
-);
-
-$app->get('/direitos-deveres-seus-alunos-professores',function (){
-        require_once("view/direitos-deveres-seus-alunos-professores.php");   
-    }
-);
-
-$app->get('/eventos-sociais-promovidos-pelo-colegio',function (){
-        require_once("view/eventos-sociais-promovidos-pelo-colegio.php");   
     }
 );
 

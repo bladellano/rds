@@ -4,15 +4,46 @@ By Caio Dellano 15/12/2019
 Desenvolvimento FireFly
 */
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap'); */
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 /* Definindo cores */
 :root{
-  /* Paideia Educacional */
-  /* #7F9C97 */
-  /* #273A40 */
   --cor-color-principal : #D4511D;
   --cor-color-secundaria: #FBC531; 
   --cor-bg-principal    : #FFFFFF;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+/*----------------------*/
+
+.input-group-text{
+    background-color: var(--cor-color-principal );
+    color: var(--cor-bg-principal);
+    border:0px;
+}
+/*----------------------*/
+
+.btn-professor:hover{
+    color: var(--cor-color-principal );
+    text-decoration: none;
+    background-color: var(--cor-color-principal );
+    color: #FFF;
+}
+.btn-professor{
+    background-color: #FFF;
+    font-size: 12px;
+    border:1px solid var( --cor-color-principal );
+    padding: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: var(--cor-color-principal );
+    transition: 0.2s ease-in;
 }
 
 /* Customizando o dropdown das unidades */
@@ -51,37 +82,32 @@ Desenvolvimento FireFly
     height : auto;
 }
 
-* {
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-}
-
 .my-3.p-3.bg-white.rounded.shadow-sm p{
     text-align: justify;
     color:#606060;
     font-size: 16px;
-    margin-bottom: 10px;     
+    margin-bottom: 22px;
+    margin-top: 18px;     
 }
 .my-3.p-3.bg-white.rounded.shadow-sm h3{
     margin: 20px 0px 20px 0px;
     background-color: #EDF0F4;
     font-size: 26px;
-    height: 80px;
-    line-height: 80px;
+    height: 70px;
+    line-height: 70px;
     padding-left: 4px;
 
 }
 /* Personalizando arrows do slick */
-
+.slick-next.slick-arrow,.slick-prev.slick-arrow{
+    outline: 0;
+}
 .slick-prev:before, .slick-next:before { 
     font-family: "slick"; 
     font-size: 40px; 
     line-height: 1; 
     color: #FFF; 
     opacity: 0.75; 
-
 }   
 
 .slick-prev:before { content: "‹"; }
@@ -316,7 +342,7 @@ body {
   padding-left: 8px;
   transition: .3s;
 }  
-#footer .container-fluid .row:only-child ul li a:hover{
+#footer .container-fluid .row:only-child ul li:hover a{
     color: #FFF;
     border-left: 4px solid var(--cor-color-principal);
 }
@@ -325,10 +351,10 @@ body {
     margin-bottom: 12px;
     font-size: .8em;
 } 
-#footer .container-fluid .row:only-child p{
-    color: #666;
+#footer .container-fluid .row .col-md-3:first-child{
+    color: #FFF;
     font-size: .8em;
-    line-height: 26px;
+    line-height: 30px;
 }
 
 /*----------------------*/
@@ -379,11 +405,11 @@ body {
 }
 #depoimentos h2{
     /* color         : var(--cor-color-principal); */
-    color         : #FFF;
-    font-size     : 26px;
+    color: #FFF;
+    font-size: 26px;
     text-transform: uppercase;
-    text-align    : center;
-    font-weight   : 300;
+    text-align: center;
+    font-weight: 300;
 }
 #depoimentos hr{
     border: var(--cor-color-secundaria) solid 2px;
@@ -413,6 +439,11 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+/* Personalizando formulário de contato */
+.form-contato{
+    text-align: center;
+}
 .form-contato input{
     width: 100%;
     display: block;
@@ -424,7 +455,8 @@ body {
 .form-contato textarea{
     border:1px solid var(--cor-color-principal);
     padding: 10px;
-    width: 100%;
+    width:550px;
+    margin: 0 auto;
 }
 .wrap-form{
     max-width: 580px;
@@ -478,13 +510,13 @@ body {
 }
 /*----------------------*/
 .icon-socials{
-    color           : #FFF;
+    color: #FFF;
     background-color: var(--cor-color-principal);
-    width           : 25px;
-    height          : 25px;
-    display         : inline-block;
-    text-align      : center;
-    border-radius   : 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
 }
 .icon-socials:hover{
     color:#FFF;
@@ -496,15 +528,15 @@ body {
 }
 
 .head h1 {
-    padding    : 2px 8px;
+    padding: 2px 8px;
     line-height: 100px;
-    font-size  : 50px;
-    color      : var(--cor-color-principal);
-    background : #FFF;    
+    font-size: 50px;
+    color: var(--cor-color-principal);
+    background: #FFF;    
 }
 
 .head .nav-menu {
-    z-index        : 1;
+    z-index: 1;
     /* background     : var(--cor-color-principal); */
     background: #FFF;
     padding: 0px 0px;
@@ -518,11 +550,11 @@ body {
 }
 .nav-menu li {
     list-style-type: none;
-    display        : inline-block;
-    padding        : 10px 40px;
-    text-align     : center;
-    color          : #333;
-    font-size      : 18px;
+    display: inline-block;
+    padding: 10px 40px;
+    text-align: center;
+    color: #333;
+    font-size: 18px;
 }
 
 /*----------------------*/
@@ -638,16 +670,15 @@ body {
 
 /*----------------------*/
 .wrap-logo{
-  width:88%;
+  width:76%;
 }
 .wrap-logo .logo img{
   width: 88px;
   float: left;
 }
-
 .wrap-logo .texto{
   float: right;
-  font-style: italic;
+  /* font-style: italic; */
   color:var(--cor-color-principal);
   font-size: 26px;
   line-height: 30px;
@@ -659,6 +690,17 @@ body {
     body {
         overflow-x: hidden;
     }
+    .form-contato textarea{
+        width: 93%;
+    }
+    #sobre-nos p{
+        text-align: center;    
+    }
+
+    #services p, #services h2{
+        text-align: center;    
+    }
+
     #links-services .container .row:only-child a{
         width : 198px;
         height: 178px;
