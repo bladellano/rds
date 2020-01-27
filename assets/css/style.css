@@ -714,7 +714,7 @@ body {
     .form-contato textarea{
         width: 93%;
     }
-    #sobre-nos p{
+    #sobre-nos p, #sobre-nos h3{
         text-align: center;    
     }
 
@@ -773,9 +773,9 @@ body {
     .head .nav-menu {
         justify-content: space-between;
         padding: 10px 20px;
+        background-color: var(--cor-color-principal);        
     }
     .head .nav-menu{
-        background-color: var(--cor-color-principal);
     }
     .nav-menu li {
         border-left  : 0px;

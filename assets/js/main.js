@@ -9,6 +9,7 @@
             nav.style.position = 'fixed';
             nav.style.top = 0;
             // nav.style.opacity = '0.9';
+
         } else {
             nav.style.position = 'relative';
         }
@@ -17,7 +18,6 @@
     const navSlide = () => {
         const burger = doc.querySelector('.burger');
         const nav = doc.querySelector('.nav-links:nth-child(2)');
-        console.log(nav);''
         const navLinks = doc.querySelectorAll('.nav-links li');
 
         burger.addEventListener('click', () => {
@@ -65,8 +65,6 @@
             scrollTop: 0
         }, 500)
     });
-
-
 
     window.sr = ScrollReveal({reset: true});
     sr.reveal('#footer .container-fluid .row .col-md-3', {

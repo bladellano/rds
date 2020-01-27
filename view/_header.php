@@ -12,8 +12,8 @@
   <meta name="copyright" content="© 2020 Colégio Rosa de Saron" />
 
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- <link href="lib/font-awesome.5.11.2/css/all.min.css" rel="stylesheet"> -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+  <link href="lib/font-awesome.5.11.2/css/all.min.css" rel="stylesheet">
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet"> -->
   <link href="lib/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
   <link href="lib/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
   <link href="assets/css/redes-socials.css" rel="stylesheet" type="text/css">
@@ -126,7 +126,7 @@
       </div>
     </li>
     <li><a href="unidades">Unidades<hr></a></li>
-    <li><a href="imprensa">Informativo<hr></a></li>
+    <li><a href="informativo">Informativo<hr></a></li>
     <li><a href="#paralax">Fale Conosco<hr></a></li>
     <li><a class="btn btn-success" href="#">PRÉ-MATRÍCULA</a></li>
   </ul>
