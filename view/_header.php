@@ -40,7 +40,7 @@
                 <a href="./"><img src="assets/img/logo-rds.png" alt="Logo Instituição"></a>
               </div>
               <div class="texto">
-                Colégio<br/>Rosa de Saron
+                Colégio Rosa de Saron
               </div>
             </div> 
 

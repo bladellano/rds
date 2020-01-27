@@ -670,18 +670,18 @@ body {
 
 /*----------------------*/
 .wrap-logo{
-  width:76%;
+  width:90%;
 }
 .wrap-logo .logo img{
-  width: 88px;
+  width: 90px;
   float: left;
 }
 .wrap-logo .texto{
   float: right;
   /* font-style: italic; */
   color:var(--cor-color-principal);
-  font-size: 26px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 70px;
   margin-top: 12px;
 }
 
