@@ -131,7 +131,7 @@
     <li><a class="btn btn-success" href="#">PRÉ-MATRÍCULA</a></li>
   </ul>
 
-  <a href="#" class="icon-professor-mobile" target="_blank">
+  <a href="#" class="icon-professor-mobile">
     <i class="fas fa-chalkboard-teacher"></i>
   </a>
 
