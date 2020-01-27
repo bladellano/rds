@@ -523,6 +523,23 @@ body {
 }
 /*----------------------*/
 
+.icon-professor-mobile:hover{
+    background-color:  var(--cor-color-secundaria);
+    color: var(--cor-color-principal);
+}
+.icon-professor-mobile{
+    /*background-color: #;*/
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    color:#FFF;
+    padding: 4px;
+    height: 30px;
+    margin-top: 1px;
+    margin-left: 190px;
+    display: none;
+}
+/*----------------------*/
+
 .head {
     width: 100%;
 }
@@ -689,6 +706,10 @@ body {
 @media screen and (max-width:768px) {
     body {
         overflow-x: hidden;
+    }
+
+    .icon-professor-mobile{
+        display: block;
     }
     .form-contato textarea{
         width: 93%;

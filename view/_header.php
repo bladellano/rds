@@ -11,12 +11,14 @@
   <meta name="keywords" content="Belém, Pará, Educação, Ensino de Qualidade, etc">
   <meta name="copyright" content="© 2020 Colégio Rosa de Saron" />
 
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="lib/font-awesome.5.11.2/css/all.min.css" rel="stylesheet"> -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
   <link href="lib/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
   <link href="lib/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
   <link href="assets/css/redes-socials.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  
+  <script src="lib/angular/angular.min.js"></script>
 
   <link href="lib/slick/slick.css" rel="stylesheet" type="text/css">
   <link href="lib/slick/slick-theme.scss" rel="stylesheet" type="text/css">
@@ -118,20 +120,20 @@
       <i class="fa fa-chevron-down" aria-hidden="true"></i>
       <div class="sub-menu">
         <ul>
-          <!-- <li><a href="vida-rosa-de-saron">Ambiente escolar<hr></a></li> -->
           <li><a href="vida-rosa-de-saron#tecnologias-educacionais">Tecnologias Educacionais<hr></a></li>
           <li><a href="vida-rosa-de-saron#ambientes-de-aprendizagem">Ambientes de aprendizagem<hr></a></li>
-          <!-- <li><a href="vida-rosa-de-saron#horario-de-aula">Horário de aula<hr></a></li> -->
-          <!-- <li><a href="vida-rosa-de-saron#material-usado">Material usado<hr></a></li> -->
         </ul>
       </div>
     </li>
-
     <li><a href="unidades">Unidades<hr></a></li>
     <li><a href="imprensa">Informativo<hr></a></li>
     <li><a href="#paralax">Fale Conosco<hr></a></li>
     <li><a class="btn btn-success" href="#">PRÉ-MATRÍCULA</a></li>
   </ul>
+
+  <a href="#" class="icon-professor-mobile" target="_blank">
+    <i class="fas fa-chalkboard-teacher"></i>
+  </a>
 
   <div class="burger">
     <div class="line1"></div>

@@ -75,16 +75,11 @@
 </div>
 
 <script src="lib/jquery/jquery.js"></script>
-
-<script src="https://unpkg.com/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
+<script src="lib/bootstrap/js/popper.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
 <script src="lib/owl-carousel/owl.carousel.min.js"></script>
-
-<script src="https://unpkg.com/scrollreveal"></script>
-
+<script src="lib/scrollreveal/scrollreveal.js"></script>
 <script src="lib/slick/slick.min.js"></script>
-
 <script src="assets/js/main.js"></script>
 
 <script>
