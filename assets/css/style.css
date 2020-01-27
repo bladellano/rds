@@ -534,7 +534,7 @@ body {
     color:#FFF;
     padding: 4px;
     height: 30px;
-    margin-top: 1px;
+    margin-top: 7px;
     margin-left: 190px;
     display: none;
 }
@@ -673,7 +673,7 @@ body {
 
 .logo-mobile {
     display: none;
-    color:#FFF;
+    color:#FFF;   
 } 
 .title{
     padding: 10px 12px;

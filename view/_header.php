@@ -103,7 +103,7 @@
 
 <div class="head"> 
   <div class="nav-menu" id="nav">
-   <div class="logo-mobile"><img src="assets/img/logo-rds-branca.png" alt=""> Colégio Rosa de Saron</div>
+   <div class="logo-mobile"><a href="./"><img src="assets/img/logo-rds-branca.png" alt=""></a></div>
 
    <ul class="nav-links">
      <li>
