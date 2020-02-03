@@ -48,6 +48,7 @@
 
           </div>  
           <div class="col-md-2">
+<!-- 
            <div class="custom">
             <i class="fas fa-map-marker-alt"></i>
             <h3>ENDEREÇO</h3>
@@ -64,8 +65,7 @@
               </div>
             </li>
           </ul>
-
-        </div>
+        </div> -->
       </div>
       <div class="col-md-1">
 <!--  <div class="custom">

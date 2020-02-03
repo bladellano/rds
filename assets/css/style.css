@@ -24,9 +24,9 @@ Desenvolvimento FireFly
     color:var(--cor-color-principal);
 }
 .scrollspy-site h4{
- color:var(--cor-color-principal); 
- font-weight: bold;
- letter-spacing: -1px;
+   color:var(--cor-color-principal); 
+   font-weight: bold;
+   letter-spacing: -1px;
 }
 
 .scrollspy-site{
@@ -144,7 +144,7 @@ Desenvolvimento FireFly
     right: auto;
 }
 .slick-next:before {
-   content: "›"; 
+ content: "›"; 
 }
 [dir="rtl"] .slick-next:before { content: "‹"; }
 
@@ -237,6 +237,15 @@ body {
 }
 
 /*----------------------*/
+#eventos .slick-eventos .btn.btn-success{
+margin:0 auto;
+}
+#eventos .slick-eventos .card-title{
+    color: var(--cor-color-principal);
+    font-size: 32px;
+    letter-spacing: -1px;
+    text-align: center;
+}
 #eventos .slick-eventos{
     padding-top: 20px;
 }
@@ -345,36 +354,52 @@ body {
     padding-top: 40px;
     padding-bottom: 20px;
 }
-#footer .container-fluid .row .col-md-3{
-   padding-left :4% ;
-   padding-right:4% ;
-   border-left  :1px dotted #666;
+#footer .container .row .col-md-4:first-child{
+  border-left:0px;
 }
-#footer .container-fluid .row:only-child h3{
+#footer .container .row .col-md-4
+{
+ padding-left :4% ;
+ padding-right:4% ;
+ border-left :1px dotted #666;
+}
+#footer .container .row:only-child h3{
     margin-bottom: 35px;
-    font-size: 1.3em;
+    font-size: 21px;
 }
-#footer .container-fluid .row:only-child ul{
+#footer .container .row:only-child ul{
     list-style: none;
     line-height: 1.8em;
 }
-#footer .container-fluid .row:only-child ul li a{
+#footer .container .row:only-child ul li a{
   color: #999;
   text-decoration: none;
   border-left: 4px solid rgba(0,0,0,0);
   padding-left: 8px;
   transition: .3s;
 }  
-#footer .container-fluid .row:only-child ul li:hover a{
+#footer .container .row:only-child ul li:hover a{
     color: #FFF;
     border-left: 4px solid var(--cor-color-principal);
 }
-#footer .container-fluid .row:only-child ul li{
+#footer .container .row:only-child ul li{
     border-bottom: 1px dotted #666;
     margin-bottom: 12px;
-    font-size: .8em;
-} 
-#footer .container-fluid .row .col-md-3:first-child{
+    font-size: 16px;
+    line-height: 48px;
+}   
+
+#footer .container .row .col-md-5 b{
+color:var(--cor-color-principal);
+}
+#footer .container .row .col-md-5 hr{
+    border-bottom: 1px dotted #666;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+#footer .container .row .col-md-4:first-child,
+#footer .container .row .col-md-5:first-child
+{
     color: #FFF;
     font-size: .8em;
     line-height: 30px;
@@ -382,15 +407,15 @@ body {
 
 /*----------------------*/
 #assign {
- background: linear-gradient(45deg, #222, #333); 
+   background: linear-gradient(45deg, #222, #333); 
 }
 #assign .container{
- text-align: center; 
- color: #FFF;
- padding-top: 8px;
- padding-bottom: 8px;
- font-size: 12px;
- color: #777;
+   text-align: center; 
+   color: #FFF;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   font-size: 12px;
+   color: #777;
 }
 #assign .container img{
     max-height: 33px;
@@ -487,15 +512,15 @@ body {
 }
 /*----------------------*/
 .bg-paralax-pg-default{
- /* background-image: url(../../assets/img/bg-paralax-instituicao.jpg); */
- background-position: center top;
- background-repeat: no-repeat;
- background-size: cover;
- background-attachment: fixed;
- color: #FFF;
- padding-top: 190px;
- padding-bottom: 90px;
- position: relative;
+   /* background-image: url(../../assets/img/bg-paralax-instituicao.jpg); */
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   color: #FFF;
+   padding-top: 190px;
+   padding-bottom: 90px;
+   position: relative;
 }
 .bg-paralax-pg-default h6{
     /* background-color: #000; */

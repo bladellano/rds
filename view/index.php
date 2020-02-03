@@ -14,7 +14,7 @@
 <!-- End carousel -->
 
 <section>
-  
+
  <div id="sobre-nos">
   <div class="container">
    <h2>Sobre nós</h2>
@@ -83,16 +83,16 @@
 </div>
 
 <div id="eventos">
-  <h2>Eventos</h2>
+  <h2>ENSINOS</h2>
   <hr>
   <div class="container">       
 
     <div class="slick-eventos">
       <div>
         <div class="card" style="width: 90%">
-          <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
+          <img class="card-img-top" src="assets/img/ensino-infantil.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Ensino Infantil</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="btn btn-success">Saiba mais</a>
           </div>
@@ -101,9 +101,9 @@
 
       <div>
         <div class="card" style="width: 90%">
-          <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
+          <img class="card-img-top" src="assets/img/ensino-fundamental.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Ensino Fundamental</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="btn btn-success">Saiba mais</a>
           </div>
@@ -112,31 +112,9 @@
 
       <div>
         <div class="card" style="width: 90%">
-          <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
+          <img class="card-img-top" src="assets/img/ensino-medio.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-success">Saiba mais</a>
-          </div>
-        </div>
-      </div> 
-
-      <div>
-        <div class="card" style="width: 90%">
-          <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-success">Saiba mais</a>
-          </div>
-        </div>
-      </div> 
-
-      <div>
-        <div class="card" style="width: 90%">
-          <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Ensino Médio</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="btn btn-success">Saiba mais</a>
           </div>
