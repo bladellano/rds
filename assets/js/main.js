@@ -17,7 +17,6 @@
     const navSlide = () => {
         const burger = doc.querySelector('.burger');
         const nav = doc.querySelector('.nav-links:nth-child(2)');
-        console.log(nav);''
         const navLinks = doc.querySelectorAll('.nav-links li');
 
         burger.addEventListener('click', () => {
@@ -40,7 +39,7 @@
     }
     navSlide();
 
-    //Scroll suave links internos.
+    /* SCROLL SUAVE LINKS INTERNOS */
     $('.nav-links li a[href^="#"]').on('click', function(e) {
         e.preventDefault();
         var id = $(this).attr('href'),
@@ -50,7 +49,7 @@
         }, 1000);
     });
 
-    //Botão topo do site.
+    /*BOTÃO TOPO DO SITE */
     $(window).scroll(function(e) {
         if($(this).scrollTop() > 0){
             $('.topo').fadeIn();
@@ -66,6 +65,12 @@
         }, 500)
     });
 
+    /*CENTRALIZA SCROLLSPY QUANDO CLICADO NOS LINKS*/
+
+    $('a.nav-link').click(function(event) {
+        let altura = $('.display-5').height();
+        $('html, body').animate({scrollTop:altura+300}, 'slow'); //slow, medium, fast
+    });
 
 
     window.sr = ScrollReveal({reset: true});
