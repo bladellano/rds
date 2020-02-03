@@ -36,8 +36,8 @@ $app->get('/unidades',function (){
     }
 );
 
-$app->get('/imprensa',function (){
-        require_once("view/imprensa.php");   
+$app->get('/informativo',function (){
+        require_once("view/informativo.php");   
     }
 );
 

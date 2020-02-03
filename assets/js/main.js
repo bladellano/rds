@@ -9,6 +9,7 @@
             nav.style.position = 'fixed';
             nav.style.top = 0;
             // nav.style.opacity = '0.9';
+
         } else {
             nav.style.position = 'relative';
         }
@@ -64,15 +65,14 @@
             scrollTop: 0
         }, 500)
     });
-
+ 
     /*CENTRALIZA SCROLLSPY QUANDO CLICADO NOS LINKS*/
 
     $('a.nav-link').click(function(event) {
         let altura = $('.display-5').height();
         $('html, body').animate({scrollTop:altura+300}, 'slow'); //slow, medium, fast
     });
-
-
+ 
     window.sr = ScrollReveal({reset: true});
     sr.reveal('#footer .container-fluid .row .col-md-3', {
         delay: 400,
