@@ -28,7 +28,7 @@
                         <a class="nav-link ml-3" href="#item1-2">Sometimes by accident,</a>
                     </nav> -->
                     <a class="nav-link" href="#politicas-de-qualidade">&rsaquo; Políticas de Qualidade</a>
-                    <a class="nav-link" href="#pressupostos-pedagogico-da-educacao-infantil">&rsaquo; Pressupostos pedagógico da Educacao Infantil</a>
+                    <a class="nav-link" href="#pressupostos-pedagogico-da-educacao-infantil">&rsaquo; Pressupostos pedagógico da Educação Infantil</a>
                     <a class="nav-link" href="#pressupostos-pedagogico-ensino-fundamental-de-09-anos">&rsaquo; Pressupostos pedagógico Ensino Fundamental de 09 anos</a>
                     <a class="nav-link" href="#pressupostos-pedagogico-do-ensino-medio">&rsaquo; Pressupostos pedagógico Ensino Fundamental de 09 anos</a>
                     <a class="nav-link" href="#metodologia">&rsaquo; Metodologia</a> 
@@ -40,7 +40,7 @@
 
             <div data-spy="scroll" data-target="#navbar-vertical" data-offset="0" class="scrollspy-site">
 
-                <h4 id="metas">Metas:</h4>
+                <h4 id="metas">Metas</h4>
 
                 <p>No C.R.S, os objetivos cumprem importante papel na definição de ações e propósitos mais amplos que, por sua vez, respondem às expectativas e às exigências da comunidade escolar. Assim, o Colégio se propõe a:  
                 </p>
@@ -59,7 +59,7 @@
 
                 <p>Tais objetivos encontram-se amparados em concepções epistemológicas e filosóficas que balizam a proposta pedagógica da Escola em sua materialização sistemática. A mesma, buscar realizar um trabalho de educação que contribua para promover o desenvolvimento intelectual, afetivo, moral e social dos alunos, atendendo-os nos seus aspectos individuais e coletivos. Formando alunos críticos e participativos que reflitam, participem e assumam responsabilidades, como conquistas indispensáveis para a realização pessoal, profissional e cidadã.</p>
 
-                <h4 id="politicas-de-qualidade">Política de Qualidade:</h4>
+                <h4 id="politicas-de-qualidade">Política de Qualidade</h4>
 
                 <p>A escola tem princípios que aprovam e favorecem o ambiente de trabalho mais humano, interativo e produtivo.</p>
 
