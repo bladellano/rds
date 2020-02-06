@@ -13,47 +13,38 @@
     <h3 class="pb-2 mb-0">UNIDADES</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, itaque ducimus praesentium! Voluptate nisi, accusantium soluta inventore eaque facilis fugit architecto optio totam voluptatum, vero, repudiandae blanditiis quibusdam, odio ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, itaque ducimus praesentium! Voluptate nisi, accusantium soluta inventore eaque facilis fugit architecto optio totam voluptatum, vero, repudiandae blanditiis quibusdam, odio ipsam.</p>
     <div class="row">
-      <div class="col-md-6"><h3 style="background-color: #D4511D;color:#FFF;" class="pb-2 mb-0">Augusto Montenegro</h3>
-        <p>Augusto Montenegro, Km 4 (Próx. Ao Shopping)</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.677428976041!2d-48.446747085909024!3d-1.3702302990006352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a461cd5d777d83%3A0xb7f58c23ad4183a2!2sCol%C3%A9gio%20Rosa%20de%20Saron!5e0!3m2!1spt-BR!2sbr!4v1578137792143!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="">      
-        </iframe>  
-      </div>
-      <div class="col-md-6"><h3 style="background-color: #D4511D;color:#FFF;" class="pb-2 mb-0">Eduardo Angelim</h3>
-        <p>Cj. Eduardo Angelim - Icoaraci</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.677428976041!2d-48.446747085909024!3d-1.3702302990006352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a461cd5d777d83%3A0xb7f58c23ad4183a2!2sCol%C3%A9gio%20Rosa%20de%20Saron!5e0!3m2!1spt-BR!2sbr!4v1578137792143!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="">      
-        </iframe>  
-      </div>
-      <div class="col-md-6"><h3 style="background-color: #D4511D;color:#FFF;" class="pb-2 mb-0">Cidade Nova</h3>
-        <p>Cidade Nova 8 We-39</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.677428976041!2d-48.446747085909024!3d-1.3702302990006352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a461cd5d777d83%3A0xb7f58c23ad4183a2!2sCol%C3%A9gio%20Rosa%20de%20Saron!5e0!3m2!1spt-BR!2sbr!4v1578137792143!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="">      
-        </iframe>  
-      </div>
-      <div class="col-md-6"><h3 style="background-color: #D4511D;color:#FFF;" class="pb-2 mb-0">Fé em Deus</h3>
-        <p>Tv. Fé em Deus - Tenoné</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.677428976041!2d-48.446747085909024!3d-1.3702302990006352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a461cd5d777d83%3A0xb7f58c23ad4183a2!2sCol%C3%A9gio%20Rosa%20de%20Saron!5e0!3m2!1spt-BR!2sbr!4v1578137792143!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="">      
-        </iframe>  
-      </div>
-
+      <div class="col-md-6">
+       <b>AUGUSTO MONTENEGRO:</b><br/>
+       <i class="fas fa-map-marker-alt"></i> Rod. Augusto Montenegro, KM 04, nº 100.<br/> 
+       <i class="fas fa-phone"></i> (91) 98442-5346<br/>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.677428976041!2d-48.446747085909024!3d-1.3702302990006352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a461cd5d777d83%3A0xb7f58c23ad4183a2!2sCol%C3%A9gio%20Rosa%20de%20Saron!5e0!3m2!1spt-BR!2sbr!4v1578137792143!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="">      
+       </iframe>  
+     </div>
+     <div class="col-md-6">
+      <b>EDUARDO ANGELIM:</b><br/>
+      <i class="fas fa-map-marker-alt"></i> Av. 17 de Abril, Conj. Eduardo Angelim, nº 10.<br/> 
+      <i class="fas fa-phone"></i> (91) 98885-7462<br/>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.677428976041!2d-48.446747085909024!3d-1.3702302990006352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a461cd5d777d83%3A0xb7f58c23ad4183a2!2sCol%C3%A9gio%20Rosa%20de%20Saron!5e0!3m2!1spt-BR!2sbr!4v1578137792143!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="">      
+      </iframe>  
     </div>
+    <div class="col-md-6">
+      <b>CIDADE NOVA:</b><br/>
+      <i class="fas fa-map-marker-alt"></i> Estrada da Providência, WE 39, nº 322.<br/> 
+      <i class="fas fa-phone"></i> (91) 98282-0145<br/>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.677428976041!2d-48.446747085909024!3d-1.3702302990006352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a461cd5d777d83%3A0xb7f58c23ad4183a2!2sCol%C3%A9gio%20Rosa%20de%20Saron!5e0!3m2!1spt-BR!2sbr!4v1578137792143!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="">      
+      </iframe>  
+    </div>
+    <div class="col-md-6">
+     <b>MATRIZ:</b><br/>
+     <i class="fas fa-map-marker-alt"></i> Rod. Augusto Montenegro KM 11, Rua Fé em Deus, QD 01 nº 10.<br/>
+     <i class="fas fa-phone"></i> (91) 98442-5346 / 2121-4515<br/>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.677428976041!2d-48.446747085909024!3d-1.3702302990006352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a461cd5d777d83%3A0xb7f58c23ad4183a2!2sCol%C3%A9gio%20Rosa%20de%20Saron!5e0!3m2!1spt-BR!2sbr!4v1578137792143!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="">      
+     </iframe>  
+   </div>
 
+ </div>
 
-   <!--  <h3 class="pb-2 mb-0">UNIDADE Ed. Angelim</h3>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.677428976041!2d-48.446747085909024!3d-1.3702302990006352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a461cd5d777d83%3A0xb7f58c23ad4183a2!2sCol%C3%A9gio%20Rosa%20de%20Saron!5e0!3m2!1spt-BR!2sbr!4v1578137792143!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="">      
-    </iframe>  
-
-    <h3 class="pb-2 mb-0">UNIDADE Fé em Deus</h3>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.677428976041!2d-48.446747085909024!3d-1.3702302990006352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a461cd5d777d83%3A0xb7f58c23ad4183a2!2sCol%C3%A9gio%20Rosa%20de%20Saron!5e0!3m2!1spt-BR!2sbr!4v1578137792143!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="">      
-    </iframe>  
-
-    <h3 class="pb-2 mb-0">UNIDADE Cidade Nova</h3>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.677428976041!2d-48.446747085909024!3d-1.3702302990006352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a461cd5d777d83%3A0xb7f58c23ad4183a2!2sCol%C3%A9gio%20Rosa%20de%20Saron!5e0!3m2!1spt-BR!2sbr!4v1578137792143!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="">      
-    </iframe>   -->
-
-
-  </div>
+</div>
 </div>
 
 <?php include_once("_footer.php"); ?>

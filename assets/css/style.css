@@ -107,18 +107,20 @@ Desenvolvimento FireFly
 
 .my-3.p-3.bg-white.rounded.shadow-sm p{
     text-align: justify;
-    color:#606060;
-    font-size: 16px;
+    color:#000;
+    font-size: 18px;
     margin-bottom: 22px;
-    margin-top: 18px;     
+    margin-top: 18px; 
+    letter-spacing: -1px;    
 }
 .my-3.p-3.bg-white.rounded.shadow-sm h3{
-    margin: 20px 0px 20px 0px;
-    background-color: #EDF0F4;
+    /* margin: 20px 0px 20px 0px; */
+    /* background-color: #EDF0F4; */
     font-size: 26px;
-    height: 70px;
-    line-height: 70px;
-    padding-left: 4px;
+    /* height: 70px; */
+    /* line-height: 70px; */
+    padding-left: 0px;
+    color:var(--cor-color-principal);
 
 }
 /* Personalizando arrows do slick */

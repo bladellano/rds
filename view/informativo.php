@@ -12,11 +12,12 @@
   <div class="my-3 p-3 bg-white rounded shadow-sm">
     <h3 class="pb-2 mb-0">Informativo</h3>
    
-    <p>LoremIpsum360 ° é um gerador on-line falso texto livre. Ele oferece um simulador de texto completo para gerar texto de substituição ou texto alternativo para seus modelos. Possui textos aleatórios diferentes em latim e cirílico para gerar exemplos de textos em diferentes línguas.
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur enim quae commodi porro quisquam tempore ex velit facilis assumenda expedita reprehenderit laboriosam perferendis, excepturi nulla? Dicta, incidunt! Ipsam impedit, dolore.
     </p>
-
-    <p>LoremIpsum360 ° também lhe dá a capacidade de adicionar marcas de pontuação, acentos e caracteres especiais, para estar mais perto dos idiomas francês ou outras. Além disso, se você quiser ver os resultados em diferentes tipos de letra, você vai encontrar muitos recursos para definir como font-family, font-size, text-align ou line-heigh.
-    </p>     
+    <p>
+      &raquo; <a target="_blank" href="assets/CALENDARIO_ANUAL_DO_COLEGIO_ROSA_DE_SARON-AUGUSTO_MONTENEGRO_2020.pdf">CALENDÁRIO ANUAL DO COLÉGIO ROSA DE SARON <i class="fas fa-file-pdf"></i></a>
+    </p> 
+       
 
   </div>
 </div>
