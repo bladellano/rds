@@ -16,8 +16,7 @@
     </p>
     <p>
       &raquo; <a target="_blank" href="assets/CALENDARIO_ANUAL_DO_COLEGIO_ROSA_DE_SARON-AUGUSTO_MONTENEGRO_2020.pdf">CALENDÁRIO ANUAL DO COLÉGIO ROSA DE SARON <i class="fas fa-file-pdf"></i></a>
-    </p> 
-       
+    </p>        
 
   </div>
 </div>

@@ -18,7 +18,7 @@
     </div> 
     <div class="row">        
 
-        <div class="col-3">
+        <div class="col-md-3 d-none d-sm-block">
             <nav id="navbar-vertical" class="navbar navbar-light bg-light">
 
                 <nav class="nav nav-pills flex-column">
@@ -43,9 +43,9 @@
             </nav>
         </div>
 
-        <div class="col-9">
+        <div class="col-md-9 col-12">
 
-            <div data-spy="scroll" data-target="#navbar-vertical" data-offset="0" class="scrollspy-site" style="height:900px;">
+            <div data-spy="scroll" data-target="#navbar-vertical" data-offset="0" class="scrollspy-site" >
 
                 <h4 id="principios">Princípios</h4>
 

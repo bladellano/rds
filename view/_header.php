@@ -7,8 +7,8 @@
   <title>.: Colégio Rosa de Saron :.</title>
 
   <meta name="author" content="FireFly Desenvolvimento">
-  <meta name="description" content="Educação Escolar, Ensino Fundamental, Ensino Médio, etc">
-  <meta name="keywords" content="Belém, Pará, Educação, Ensino de Qualidade, etc">
+  <meta name="description" content="Colégio Rosa de Saron - Belém - Pará">
+  <meta name="keywords" content="champagnat, colégio, educação, educação humanizada, enem, ensino fundamental, ensino infantil, ensino rosa de saron, ensino médio, rosa de saron,matrícula, preparação vestibular, vestibular">
   <meta name="copyright" content="© 2020 Colégio Rosa de Saron" />
 
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">

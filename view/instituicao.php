@@ -7,12 +7,6 @@
   </div>
 </div>
 
-
-
-
-
-
-
 <div class="container">
 
   <div class="row">
@@ -21,10 +15,11 @@
       <h1 class="display-5">Instituição</h1>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
     </div>
-  </div>    
+  </div>  
+
   <div class="row">        
 
-    <div class="col-3">
+    <div class="col-md-3 d-none d-sm-block">
       <nav id="navbar-vertical" class="navbar navbar-light bg-light">
 
         <nav class="nav nav-pills flex-column">
@@ -33,7 +28,7 @@
         </nav>
       </div>
 
-      <div class="col-9">
+      <div class="col-md-9 col-12">
 
         <div data-spy="scroll" data-target="#navbar-vertical" data-offset="0" class="scrollspy-site">
 
@@ -61,13 +56,9 @@
 
        </div><!--col-9-->
      </div>
+
    </div>
 
- </div><!-- CONTAINER -->
-
-
-
-
- 
+ </div><!-- CONTAINER --> 
 
  <?php include_once("_footer.php"); ?>

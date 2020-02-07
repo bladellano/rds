@@ -28,11 +28,10 @@ Desenvolvimento FireFly
    font-weight: bold;
    letter-spacing: -1px;
 }
-
 .scrollspy-site{
     position: relative;
     overflow: auto;
-    height: 380px;
+    height: 600px;
 }
 .nav-pills .nav-link{
     color: #333;
@@ -104,7 +103,6 @@ Desenvolvimento FireFly
     width  : 100%;
     height : auto;
 }
-
 .my-3.p-3.bg-white.rounded.shadow-sm p{
     text-align: justify;
     color:#000;
@@ -114,11 +112,7 @@ Desenvolvimento FireFly
     letter-spacing: -1px;    
 }
 .my-3.p-3.bg-white.rounded.shadow-sm h3{
-    /* margin: 20px 0px 20px 0px; */
-    /* background-color: #EDF0F4; */
     font-size: 26px;
-    /* height: 70px; */
-    /* line-height: 70px; */
     padding-left: 0px;
     color:var(--cor-color-principal);
 
@@ -240,7 +234,7 @@ body {
 
 /*----------------------*/
 #eventos .slick-eventos .btn.btn-success{
-margin:0 auto;
+    margin:0 auto;
 }
 #eventos .slick-eventos .card-title{
     color: var(--cor-color-principal);
@@ -312,13 +306,6 @@ margin:0 auto;
     width : 200px;
     margin: 0 auto;
 }
-/* #links-services .container .row .col-lg-2:nth-child(1) a{background-color: #F58634;}
-#links-services .container .row .col-lg-2:nth-child(2) a{background-color: #3D619E;}
-#links-services .container .row .col-lg-2:nth-child(3) a{background-color: #44C1C4;}
-#links-services .container .row .col-lg-2:nth-child(4) a{background-color: #00A859;}
-#links-services .container .row .col-lg-2:nth-child(5) a{background-color: #A53692;}
-#links-services .container .row .col-lg-2:nth-child(6) a{background-color: #D63135;} */
-
 #links-services .container .row:only-child a{
     width: 170px;
     height: 180px; 
@@ -330,20 +317,16 @@ margin:0 auto;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.1); 
     padding: 6px;
 }
-#links-services .container .row:only-child a:hover{
-    /*opacity: 1*/
-} 
+
 #links-services .container .row:only-child a .fas, 
 #links-services .container .row:only-child a .fab{
     font-size: 55px;
     margin   : 22px 0px 12px 0px;
-    /* color    :var(--cor-color-principal); */
     color: #333;
 }
 
 #links-services .container .row:only-child a p{
     font-size: 0.8em;    
-    /* color    : var(--cor-color-principal); */
     color: #333;
 }
 
@@ -392,7 +375,7 @@ margin:0 auto;
 }   
 
 #footer .container .row .col-md-5 b{
-color:var(--cor-color-principal);
+    color:var(--cor-color-principal);
 }
 #footer .container .row .col-md-5 hr{
     border-bottom: 1px dotted #666;
@@ -489,7 +472,6 @@ color:var(--cor-color-principal);
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 /* Personalizando formulário de contato */
 .form-contato{
     text-align: center;
@@ -604,7 +586,7 @@ color:var(--cor-color-principal);
 
 .head .nav-menu {
     z-index: 1;
-    /* background     : var(--cor-color-principal); */
+    /* background: var(--cor-color-principal); */
     background: #FFF;
     padding: 0px 0px;
     text-align: center;
@@ -642,9 +624,7 @@ color:var(--cor-color-principal);
     transition: .3s;
     margin-bottom: 0;
     text-transform: uppercase;
-
 }
-
 .nav-links a {
     color: var(--cor-color-principal); 
     text-decoration: none;
@@ -652,7 +632,6 @@ color:var(--cor-color-principal);
     font-size:11px;
     font-weight: bold;
 }
-
 .nav-links li a hr {
   border: 1px solid var(--cor-color-principal);
   width: 0;
@@ -759,7 +738,12 @@ color:var(--cor-color-principal);
     body {
         overflow-x: hidden;
     }
-
+    .scrollspy-site{
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+        text-align: justify;
+    }
     .icon-professor-mobile{
         display: block;
     }
