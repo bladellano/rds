@@ -289,6 +289,7 @@ body {
     font-weight: 300;
 }
 #links-services{
+    display: none;
   /* background-color: var(--cor-bg-principal); */
   background-color: var(--cor-bg-principal);
   width: 100%;
